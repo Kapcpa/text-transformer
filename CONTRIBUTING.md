@@ -40,7 +40,7 @@ public class UpperCaseTransformer extends TransformerDecorator {
 
 Potem:
 
-- rejestracja w konstruktorze `TransformerFactory`: `register("upper", UpperCaseTransformer::new);`
+- w konstruktorze `TransformerFactory` odkomentuj **tylko swoją** linię `register(...)` (są już przygotowane, żeby nie było konfliktów)
 - testy w `src/test/java/.../logic/transforms/`
 - dopisać klasę na [diagramie klas](docs/uml/class-diagram.md)
 
