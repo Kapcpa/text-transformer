@@ -34,8 +34,27 @@ public class TransformerFactory {
      * Creates the factory with all transformations supported by the application.
      */
     public TransformerFactory() {
-        // Register new transformations here, e.g.:
-        // register("upper", UpperCaseTransformer::new);
+        // Kazdy odkomentowuje tylko swoja linie. Pelne nazwy klas zamiast importow i puste linie
+        // miedzy wpisami = brak konfliktow przy merge.
+
+        // #7 zmiana wielkosci liter
+        // register("upper", pl.put.poznan.transformer.logic.transforms.UpperCaseTransformer::new);
+
+        // register("lower", pl.put.poznan.transformer.logic.transforms.LowerCaseTransformer::new);
+
+        // register("capitalize", pl.put.poznan.transformer.logic.transforms.CapitalizeTransformer::new);
+
+        // #12 inverse
+        // register("inverse", pl.put.poznan.transformer.logic.transforms.InverseTransformer::new);
+
+        // #15 liczby na tekst
+        // register("numbers", pl.put.poznan.transformer.logic.transforms.NumberToWordsTransformer::new);
+
+        // #20 skroty
+        // register("abbreviate", pl.put.poznan.transformer.logic.transforms.AbbreviateTransformer::new);
+
+        // #23 rozwijanie skrotow
+        // register("expand", pl.put.poznan.transformer.logic.transforms.ExpandAbbreviationsTransformer::new);
     }
 
     /**
