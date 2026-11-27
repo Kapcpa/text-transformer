@@ -40,7 +40,7 @@ public class TransformerFactory {
         // #7 zmiana wielkosci liter
         register("upper", pl.put.poznan.transformer.logic.transforms.UpperCaseTransformer::new);
 
-        // register("lower", pl.put.poznan.transformer.logic.transforms.LowerCaseTransformer::new);
+        register("lower", pl.put.poznan.transformer.logic.transforms.LowerCaseTransformer::new);
 
         // register("capitalize", pl.put.poznan.transformer.logic.transforms.CapitalizeTransformer::new);
 
