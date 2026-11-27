@@ -38,11 +38,11 @@ public class TransformerFactory {
         // miedzy wpisami = brak konfliktow przy merge.
 
         // #7 zmiana wielkosci liter
-        // register("upper", pl.put.poznan.transformer.logic.transforms.UpperCaseTransformer::new);
+        register("upper", pl.put.poznan.transformer.logic.transforms.UpperCaseTransformer::new);
 
-        // register("lower", pl.put.poznan.transformer.logic.transforms.LowerCaseTransformer::new);
+        register("lower", pl.put.poznan.transformer.logic.transforms.LowerCaseTransformer::new);
 
-        // register("capitalize", pl.put.poznan.transformer.logic.transforms.CapitalizeTransformer::new);
+        register("capitalize", pl.put.poznan.transformer.logic.transforms.CapitalizeTransformer::new);
 
         // #12 inverse
         // register("inverse", pl.put.poznan.transformer.logic.transforms.InverseTransformer::new);
