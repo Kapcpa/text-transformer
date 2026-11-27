@@ -42,7 +42,7 @@ public class TransformerFactory {
 
         register("lower", pl.put.poznan.transformer.logic.transforms.LowerCaseTransformer::new);
 
-        // register("capitalize", pl.put.poznan.transformer.logic.transforms.CapitalizeTransformer::new);
+        register("capitalize", pl.put.poznan.transformer.logic.transforms.CapitalizeTransformer::new);
 
         // #12 inverse
         // register("inverse", pl.put.poznan.transformer.logic.transforms.InverseTransformer::new);
